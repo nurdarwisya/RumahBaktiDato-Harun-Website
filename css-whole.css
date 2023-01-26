@@ -1,0 +1,175 @@
+﻿/* CSS WHOLE LAYOUT */
+
+/*BACKGROUND SECTION */
+.page {background-color: #bdcebe;
+width: 80%;
+margin: auto;
+padding: 10px;}
+
+/*  STICKY HEADER  */
+#header {
+  background-color: #405d27; /* color background */
+  padding: 10px 1px; /* Some padding */
+  color: white;
+  text-align: center; /* Centered text */
+  font-size: 14px; /* font size */
+  font-weight: bold;
+  position: fixed; /* Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%; /* Full width */
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+/* HEADER SECTION */
+.header.main {background-color: #white;}
+
+.nav-main {background-color: #405d27;}
+.button  {background-color: #white; 
+         border-radius 5px;
+	 color: white;
+	 padding: 11px 35px;
+	 text-align:  center;
+	 box shadow: 2px 2px 2px #333333;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 16px;
+	 margin: auto;
+	 cursor: pointer;}
+
+/* BUTTON SECTION */
+.btn-group button {
+  background-color: #405d27; /* Green background */
+  border: 2px solid green; /* Green border */
+  text-align: center;
+  color: white; /* White text */
+  padding: 5px 5px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  border-radius: 16px;
+  margin: auto;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+  margin: auto;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+  margin: auto;: center;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+/*  Main & Sidebar Section  */
+.container {background-color:#d9ecd0;
+padding: 0px;}
+
+
+
+
+/*  Main Section  */
+.main {background-color: sage;
+width:75%;
+float:left;}
+
+
+
+/*  Sidebar Section  */
+.sidebar {background-color:#405d27;
+width:25%;
+float:right;}
+
+.image:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -transform: rotateZ(-30deg);
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+
+}
+
+
+
+/*  Main Footer Section  */
+.main-footer {background-color: #d9ecd0;
+clear:both;
+}
+
+
+/* Font Section */
+
+h1{
+font: Arial;
+color: #4f3222;
+}
+
+
+h2{
+font: Arial;
+color: #4f3222;
+}
+
+
+h3{
+font: Gabriola; 
+color: #405d27;
+}
+
+
+h4{
+font: Gabriola; 
+color: #405d27;
+}
+
+
+
+h5{
+font: Gabriola; 
+color: #405d27;
+}
+
+#id-span1 {color:yellow}
+
+#id-span2 {color:red}
+
+#id-span3 {color:green}
+
+#id-span4 {color:black}
+
+#id-span5 {color:white}
+
+#id-span6 {color:white}
+
+
+.img-1 {
+border-radius: 50%;
+}
+
+
+
+
+.dot{
+height: 25px;
+width: 25px;
+background-color: #d9ecd0;
+border-radius: 50%;
+display: inline-block;
+}
+
+
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
